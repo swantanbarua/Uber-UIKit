@@ -174,10 +174,10 @@
 		5E5A82CE2BD3F906006379D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A829E2BD3F6E8006379D5 /* HomeVC.swift */,
-				5E5A82D42BD401FF006379D5 /* ServicesVC.swift */,
-				5E5A82D82BD4023A006379D5 /* ActivityVC.swift */,
-				5E5A82DC2BD40251006379D5 /* AccountVC.swift */,
+				5E5A82E02BD40364006379D5 /* Home */,
+				5E5A82E12BD4036A006379D5 /* Services */,
+				5E5A82E22BD40386006379D5 /* Activity */,
+				5E5A82E32BD40398006379D5 /* Account */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -220,6 +220,38 @@
 			children = (
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		5E5A82E02BD40364006379D5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A829E2BD3F6E8006379D5 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5E5A82E12BD4036A006379D5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82D42BD401FF006379D5 /* ServicesVC.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5E5A82E22BD40386006379D5 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82D82BD4023A006379D5 /* ActivityVC.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		5E5A82E32BD40398006379D5 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82DC2BD40251006379D5 /* AccountVC.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
