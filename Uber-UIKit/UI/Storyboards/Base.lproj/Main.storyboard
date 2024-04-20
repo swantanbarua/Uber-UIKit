@@ -25,10 +25,10 @@
             </objects>
             <point key="canvasLocation" x="-324" y="-13"/>
         </scene>
-        <!--Home-->
+        <!--HomeVC-->
         <scene sceneID="SxJ-Pd-jLm">
             <objects>
-                <viewController id="qIQ-xc-VUu" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" title="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qIQ-xc-VUu" customClass="HomeVC" customModule="Uber_UIKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="duf-S3-Lqm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

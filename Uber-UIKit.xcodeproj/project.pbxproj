@@ -16,6 +16,15 @@
 		5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82B12BD3F6EE006379D5 /* Uber_UIKitTests.swift */; };
 		5E5A82BC2BD3F6EE006379D5 /* Uber_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82BB2BD3F6EE006379D5 /* Uber_UIKitUITests.swift */; };
 		5E5A82BE2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82BD2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift */; };
+		5E5A82D52BD401FF006379D5 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82D42BD401FF006379D5 /* ServicesVC.swift */; };
+		5E5A82D62BD401FF006379D5 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82D42BD401FF006379D5 /* ServicesVC.swift */; };
+		5E5A82D72BD401FF006379D5 /* ServicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82D42BD401FF006379D5 /* ServicesVC.swift */; };
+		5E5A82D92BD4023A006379D5 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82D82BD4023A006379D5 /* ActivityVC.swift */; };
+		5E5A82DA2BD4023A006379D5 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82D82BD4023A006379D5 /* ActivityVC.swift */; };
+		5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82D82BD4023A006379D5 /* ActivityVC.swift */; };
+		5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82DC2BD40251006379D5 /* AccountVC.swift */; };
+		5E5A82DE2BD40251006379D5 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82DC2BD40251006379D5 /* AccountVC.swift */; };
+		5E5A82DF2BD40251006379D5 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82DC2BD40251006379D5 /* AccountVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,9 @@
 		5E5A82B72BD3F6EE006379D5 /* Uber-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5A82BB2BD3F6EE006379D5 /* Uber_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_UIKitUITests.swift; sourceTree = "<group>"; };
 		5E5A82BD2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E5A82D42BD401FF006379D5 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
+		5E5A82D82BD4023A006379D5 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
+		5E5A82DC2BD40251006379D5 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				5E5A829E2BD3F6E8006379D5 /* HomeVC.swift */,
+				5E5A82D42BD401FF006379D5 /* ServicesVC.swift */,
+				5E5A82D82BD4023A006379D5 /* ActivityVC.swift */,
+				5E5A82DC2BD40251006379D5 /* AccountVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -338,6 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A82D52BD401FF006379D5 /* ServicesVC.swift in Sources */,
+				5E5A82D92BD4023A006379D5 /* ActivityVC.swift in Sources */,
+				5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A829F2BD3F6E8006379D5 /* HomeVC.swift in Sources */,
 				5E5A829B2BD3F6E8006379D5 /* AppDelegate.swift in Sources */,
 				5E5A829D2BD3F6E8006379D5 /* SceneDelegate.swift in Sources */,
@@ -348,6 +366,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A82DE2BD40251006379D5 /* AccountVC.swift in Sources */,
+				5E5A82DA2BD4023A006379D5 /* ActivityVC.swift in Sources */,
+				5E5A82D62BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,6 +378,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5A82BC2BD3F6EE006379D5 /* Uber_UIKitUITests.swift in Sources */,
+				5E5A82DF2BD40251006379D5 /* AccountVC.swift in Sources */,
+				5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */,
+				5E5A82D72BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A82BE2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
