@@ -9,38 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Services-->
-        <scene sceneID="1Vx-gE-M8U">
-            <objects>
-                <viewController id="qLs-ci-NFc" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iFL-nl-M7r">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="DoQ-hM-gmm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Services" id="Lnd-Mo-vwy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LWZ-dN-yqb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-324" y="-13"/>
-        </scene>
-        <!--HomeVC-->
-        <scene sceneID="SxJ-Pd-jLm">
-            <objects>
-                <viewController storyboardIdentifier="HomeVC" title="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qIQ-xc-VUu" customClass="HomeVC" customModule="Uber_UIKit" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="duf-S3-Lqm">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="uRf-7m-zrB"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="2yp-6I-Z7V"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WlS-mf-tQ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-324" y="-705"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="q7b-IA-fLE">
             <objects>
@@ -60,6 +28,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sq8-ZO-aQ8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1230" y="-402"/>
+        </scene>
+        <!--HomeVC-->
+        <scene sceneID="SxJ-Pd-jLm">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" title="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qIQ-xc-VUu" customClass="HomeVC" customModule="Uber_UIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="duf-S3-Lqm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="uRf-7m-zrB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="2yp-6I-Z7V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WlS-mf-tQ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-324" y="-705"/>
+        </scene>
+        <!--Services-->
+        <scene sceneID="1Vx-gE-M8U">
+            <objects>
+                <viewController id="qLs-ci-NFc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iFL-nl-M7r">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DoQ-hM-gmm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Services" id="Lnd-Mo-vwy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LWZ-dN-yqb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-324" y="-13"/>
         </scene>
         <!--Activity-->
         <scene sceneID="tne-QT-ifu">
