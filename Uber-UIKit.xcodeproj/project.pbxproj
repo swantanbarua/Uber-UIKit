@@ -209,8 +209,8 @@
 		5E5A82D22BD3F9F9006379D5 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A82A32BD3F6ED006379D5 /* Assets.xcassets */,
 				5E5A82A82BD3F6ED006379D5 /* Info.plist */,
+				5E5A82A32BD3F6ED006379D5 /* Assets.xcassets */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -580,7 +580,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q56Y866QH3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Uber-UIKit/Info.plist";
+				INFOPLIST_FILE = "Uber-UIKit/Configuration/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Uber;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -611,7 +611,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q56Y866QH3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Uber-UIKit/Info.plist";
+				INFOPLIST_FILE = "Uber-UIKit/Configuration/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Uber;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.travel";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
