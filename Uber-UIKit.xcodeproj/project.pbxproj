@@ -102,9 +102,8 @@
 				5E5A829A2BD3F6E8006379D5 /* AppDelegate.swift */,
 				5E5A829C2BD3F6E8006379D5 /* SceneDelegate.swift */,
 				5E5A829E2BD3F6E8006379D5 /* ViewController.swift */,
-				5E5A82A02BD3F6E8006379D5 /* Main.storyboard */,
+				5E5A82CA2BD3F808006379D5 /* UI */,
 				5E5A82A32BD3F6ED006379D5 /* Assets.xcassets */,
-				5E5A82A52BD3F6ED006379D5 /* LaunchScreen.storyboard */,
 				5E5A82A82BD3F6ED006379D5 /* Info.plist */,
 			);
 			path = "Uber-UIKit";
@@ -125,6 +124,31 @@
 				5E5A82BD2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift */,
 			);
 			path = "Uber-UIKitUITests";
+			sourceTree = "<group>";
+		};
+		5E5A82CA2BD3F808006379D5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82CC2BD3F86C006379D5 /* Storyboards */,
+				5E5A82CB2BD3F857006379D5 /* Launchscreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		5E5A82CB2BD3F857006379D5 /* Launchscreen */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82A52BD3F6ED006379D5 /* LaunchScreen.storyboard */,
+			);
+			path = Launchscreen;
+			sourceTree = "<group>";
+		};
+		5E5A82CC2BD3F86C006379D5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82A02BD3F6E8006379D5 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
