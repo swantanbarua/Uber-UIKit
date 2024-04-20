@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeVC.swift
 //  Uber-UIKit
 //
 //  Created by Swantan Barua on 20/04/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeVC: UIViewController {
 
     // MARK: - VIEWCONTROLLER LIFECYCLE METHODS
     override func viewDidLoad() {
