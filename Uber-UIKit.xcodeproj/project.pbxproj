@@ -206,10 +206,8 @@
 		5E5A82CE2BD3F906006379D5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A82E02BD40364006379D5 /* Home */,
-				5E5A82E12BD4036A006379D5 /* Services */,
-				5E5A82E22BD40386006379D5 /* Activity */,
-				5E5A82E32BD40398006379D5 /* Account */,
+				5E5A83152BD52CE2006379D5 /* ModuleViews */,
+				5E5A83142BD52CBE006379D5 /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -321,26 +319,60 @@
 		5E5A83072BD529F0006379D5 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A83082BD52AF9006379D5 /* TableViewCells */,
-				5E5A83092BD52B04006379D5 /* CollectionViewCells */,
+				5E5A83082BD52AF9006379D5 /* TableViewXIBs */,
+				5E5A83092BD52B04006379D5 /* CollectionViewXIBs */,
 			);
 			path = XIBs;
 			sourceTree = "<group>";
 		};
-		5E5A83082BD52AF9006379D5 /* TableViewCells */ = {
+		5E5A83082BD52AF9006379D5 /* TableViewXIBs */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */,
+			);
+			path = TableViewXIBs;
+			sourceTree = "<group>";
+		};
+		5E5A83092BD52B04006379D5 /* CollectionViewXIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewXIBs;
+			sourceTree = "<group>";
+		};
+		5E5A83122BD52C7C006379D5 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
 				5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */,
-				5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
 		};
-		5E5A83092BD52B04006379D5 /* CollectionViewCells */ = {
+		5E5A83132BD52CA9006379D5 /* CollectionViewCells */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		5E5A83142BD52CBE006379D5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A83122BD52C7C006379D5 /* TableViewCells */,
+				5E5A83132BD52CA9006379D5 /* CollectionViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5E5A83152BD52CE2006379D5 /* ModuleViews */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82E02BD40364006379D5 /* Home */,
+				5E5A82E12BD4036A006379D5 /* Services */,
+				5E5A82E22BD40386006379D5 /* Activity */,
+				5E5A82E32BD40398006379D5 /* Account */,
+			);
+			path = ModuleViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
