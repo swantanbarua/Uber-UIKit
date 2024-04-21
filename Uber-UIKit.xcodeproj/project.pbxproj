@@ -31,6 +31,7 @@
 		5E5A82F92BD5218C006379D5 /* Uber Move Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F42BD5204F006379D5 /* Uber Move Medium.ttf */; };
 		5E5A82FA2BD5218C006379D5 /* UberMoveBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F02BD5204E006379D5 /* UberMoveBold.otf */; };
 		5E5A82FB2BD5218C006379D5 /* UberMoveMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F52BD5204F006379D5 /* UberMoveMedium.otf */; };
+		5E5A82FD2BD52363006379D5 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82FC2BD52363006379D5 /* ColorAssets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		5E5A82F32BD5204F006379D5 /* Uber Move Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uber Move Bold.otf"; sourceTree = "<group>"; };
 		5E5A82F42BD5204F006379D5 /* Uber Move Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uber Move Medium.ttf"; sourceTree = "<group>"; };
 		5E5A82F52BD5204F006379D5 /* UberMoveMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UberMoveMedium.otf; sourceTree = "<group>"; };
+		5E5A82FC2BD52363006379D5 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 			children = (
 				5E5A82A82BD3F6ED006379D5 /* Info.plist */,
 				5E5A82A32BD3F6ED006379D5 /* Assets.xcassets */,
+				5E5A82FC2BD52363006379D5 /* ColorAssets.xcassets */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A82FD2BD52363006379D5 /* ColorAssets.xcassets in Resources */,
 				5E5A82F62BD5218C006379D5 /* Uber Move Bold.otf in Resources */,
 				5E5A82F72BD5218C006379D5 /* Uber Move Bold.ttf in Resources */,
 				5E5A82F82BD5218C006379D5 /* Uber Move Medium.otf in Resources */,
