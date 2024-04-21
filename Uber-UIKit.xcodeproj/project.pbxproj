@@ -25,6 +25,12 @@
 		5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82DC2BD40251006379D5 /* AccountVC.swift */; };
 		5E5A82DE2BD40251006379D5 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82DC2BD40251006379D5 /* AccountVC.swift */; };
 		5E5A82DF2BD40251006379D5 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82DC2BD40251006379D5 /* AccountVC.swift */; };
+		5E5A82F62BD5218C006379D5 /* Uber Move Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F32BD5204F006379D5 /* Uber Move Bold.otf */; };
+		5E5A82F72BD5218C006379D5 /* Uber Move Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F22BD5204E006379D5 /* Uber Move Bold.ttf */; };
+		5E5A82F82BD5218C006379D5 /* Uber Move Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F12BD5204E006379D5 /* Uber Move Medium.otf */; };
+		5E5A82F92BD5218C006379D5 /* Uber Move Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F42BD5204F006379D5 /* Uber Move Medium.ttf */; };
+		5E5A82FA2BD5218C006379D5 /* UberMoveBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F02BD5204E006379D5 /* UberMoveBold.otf */; };
+		5E5A82FB2BD5218C006379D5 /* UberMoveMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A82F52BD5204F006379D5 /* UberMoveMedium.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -386,6 +392,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A82F62BD5218C006379D5 /* Uber Move Bold.otf in Resources */,
+				5E5A82F72BD5218C006379D5 /* Uber Move Bold.ttf in Resources */,
+				5E5A82F82BD5218C006379D5 /* Uber Move Medium.otf in Resources */,
+				5E5A82F92BD5218C006379D5 /* Uber Move Medium.ttf in Resources */,
+				5E5A82FA2BD5218C006379D5 /* UberMoveBold.otf in Resources */,
+				5E5A82FB2BD5218C006379D5 /* UberMoveMedium.otf in Resources */,
 				5E5A82A72BD3F6ED006379D5 /* LaunchScreen.storyboard in Resources */,
 				5E5A82A42BD3F6ED006379D5 /* Assets.xcassets in Resources */,
 				5E5A82A22BD3F6E8006379D5 /* Main.storyboard in Resources */,
