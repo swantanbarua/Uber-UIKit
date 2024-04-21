@@ -47,6 +47,9 @@
 		5E5A831A2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
 		5E5A831B2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
 		5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
+		5E5A83202BD53098006379D5 /* UIViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */; };
+		5E5A83212BD53098006379D5 /* UIViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */; };
+		5E5A83222BD53098006379D5 /* UIViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +98,7 @@
 		5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocationPromptCell.swift; sourceTree = "<group>"; };
 		5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterLocationPromptCell.xib; sourceTree = "<group>"; };
 		5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellIdentifierEnums.swift; sourceTree = "<group>"; };
+		5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewModifierExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,6 +395,7 @@
 		5E5A83172BD52DD1006379D5 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A831D2BD5304D006379D5 /* Extensions */,
 				5E5A83182BD52DDC006379D5 /* Enums */,
 			);
 			path = Helpers;
@@ -402,6 +407,22 @@
 				5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		5E5A831D2BD5304D006379D5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A831E2BD5305B006379D5 /* ViewModifiers */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E5A831E2BD5305B006379D5 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */,
+			);
+			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -549,6 +570,7 @@
 				5E5A82D92BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A82FF2BD527FE006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E5A831A2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
+				5E5A83202BD53098006379D5 /* UIViewModifierExtension.swift in Sources */,
 				5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A829F2BD3F6E8006379D5 /* HomeVC.swift in Sources */,
@@ -562,6 +584,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A83212BD53098006379D5 /* UIViewModifierExtension.swift in Sources */,
 				5E5A82DE2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A82DA2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A83022BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
@@ -580,6 +603,7 @@
 				5E5A82BC2BD3F6EE006379D5 /* Uber_UIKitUITests.swift in Sources */,
 				5E5A830E2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A82DF2BD40251006379D5 /* AccountVC.swift in Sources */,
+				5E5A83222BD53098006379D5 /* UIViewModifierExtension.swift in Sources */,
 				5E5A83032BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A82D72BD401FF006379D5 /* ServicesVC.swift in Sources */,
