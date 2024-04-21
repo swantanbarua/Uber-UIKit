@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum TableViewCellIdentifierEnums {
+enum TableViewCellIdentifierEnums: String {
     
     case EnterLocationPromptCell
 }

@@ -12,6 +12,18 @@ extension HomeVC {
     internal func homeTableViewSetup() {
         homeTableView.delegate = self
         homeTableView.dataSource = self
+        
+        registerHomeTableViewCells()
+    }
+    
+    private func registerHomeTableViewCells() {
+        homeTableView.register(
+            UINib(
+                nibName: TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
+                bundle: nil
+            ),
+            forCellReuseIdentifier: TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue
+        )
     }
 }
 
@@ -27,8 +39,10 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "", for: indexPath) as? UITableViewCell else { return UITableViewCell() }
+        guard let cell = tableView.dequeueReusableCell(
+            withIdentifier: TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
+            for: indexPath
+        ) as? EnterLocationPromptCell else { return UITableViewCell() }
         return cell
-        
     }
 }
