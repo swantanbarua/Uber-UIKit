@@ -35,6 +35,9 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <color key="backgroundColor" name="BackgroundColor"/>
+            <connections>
+                <outlet property="capsuleView" destination="IOE-bK-g9w" id="Bot-PF-lL7"/>
+            </connections>
             <point key="canvasLocation" x="164.12213740458014" y="36.971830985915496"/>
         </tableViewCell>
     </objects>

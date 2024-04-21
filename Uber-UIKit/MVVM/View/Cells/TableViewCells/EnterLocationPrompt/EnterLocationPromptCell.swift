@@ -10,10 +10,13 @@ import UIKit
 class EnterLocationPromptCell: UITableViewCell {
 
     // MARK: - IBOUTLETS
+    @IBOutlet weak var capsuleView: UIView!
     
     // MARK: - LIFECYCLE METHODS
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        initialSetup()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
