@@ -233,8 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5A82A82BD3F6ED006379D5 /* Info.plist */,
-				5E5A82A32BD3F6ED006379D5 /* Assets.xcassets */,
-				5E5A82FC2BD52363006379D5 /* ColorAssets.xcassets */,
+				5E5A83062BD529AE006379D5 /* UberAssets */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -299,6 +298,15 @@
 				5E5A82F52BD5204F006379D5 /* UberMoveMedium.otf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5E5A83062BD529AE006379D5 /* UberAssets */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A82A32BD3F6ED006379D5 /* Assets.xcassets */,
+				5E5A82FC2BD52363006379D5 /* ColorAssets.xcassets */,
+			);
+			path = UberAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
