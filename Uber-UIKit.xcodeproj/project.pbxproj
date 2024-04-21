@@ -258,8 +258,16 @@
 		5E5A82E82BD51D94006379D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A82E92BD51EB4006379D5 /* Fonts */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E5A82E92BD51EB4006379D5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
