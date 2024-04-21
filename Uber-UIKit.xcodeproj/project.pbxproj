@@ -343,7 +343,7 @@
 		5E5A83122BD52C7C006379D5 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */,
+				5E5A83162BD52D32006379D5 /* EnterLocationPrompt */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -373,6 +373,14 @@
 				5E5A82E32BD40398006379D5 /* Account */,
 			);
 			path = ModuleViews;
+			sourceTree = "<group>";
+		};
+		5E5A83162BD52D32006379D5 /* EnterLocationPrompt */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */,
+			);
+			path = EnterLocationPrompt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
