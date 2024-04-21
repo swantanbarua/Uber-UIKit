@@ -61,6 +61,12 @@
 		5E5A82D42BD401FF006379D5 /* ServicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesVC.swift; sourceTree = "<group>"; };
 		5E5A82D82BD4023A006379D5 /* ActivityVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
 		5E5A82DC2BD40251006379D5 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		5E5A82F02BD5204E006379D5 /* UberMoveBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UberMoveBold.otf; sourceTree = "<group>"; };
+		5E5A82F12BD5204E006379D5 /* Uber Move Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uber Move Medium.otf"; sourceTree = "<group>"; };
+		5E5A82F22BD5204E006379D5 /* Uber Move Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uber Move Bold.ttf"; sourceTree = "<group>"; };
+		5E5A82F32BD5204F006379D5 /* Uber Move Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uber Move Bold.otf"; sourceTree = "<group>"; };
+		5E5A82F42BD5204F006379D5 /* Uber Move Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Uber Move Medium.ttf"; sourceTree = "<group>"; };
+		5E5A82F52BD5204F006379D5 /* UberMoveMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = UberMoveMedium.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +272,12 @@
 		5E5A82E92BD51EB4006379D5 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A82F32BD5204F006379D5 /* Uber Move Bold.otf */,
+				5E5A82F22BD5204E006379D5 /* Uber Move Bold.ttf */,
+				5E5A82F12BD5204E006379D5 /* Uber Move Medium.otf */,
+				5E5A82F42BD5204F006379D5 /* Uber Move Medium.ttf */,
+				5E5A82F02BD5204E006379D5 /* UberMoveBold.otf */,
+				5E5A82F52BD5204F006379D5 /* UberMoveMedium.otf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
