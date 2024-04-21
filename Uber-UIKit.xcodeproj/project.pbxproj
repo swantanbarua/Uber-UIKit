@@ -52,7 +52,7 @@
 		5E5A82A12BD3F6E8006379D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E5A82A32BD3F6ED006379D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5E5A82A62BD3F6ED006379D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5E5A82A82BD3F6ED006379D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E5A82A82BD3F6ED006379D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Uber-UIKit/Configuration/Info.plist"; sourceTree = SOURCE_ROOT; };
 		5E5A82AD2BD3F6EE006379D5 /* Uber-UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber-UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E5A82B12BD3F6EE006379D5 /* Uber_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uber_UIKitTests.swift; sourceTree = "<group>"; };
 		5E5A82B72BD3F6EE006379D5 /* Uber-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Uber-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
