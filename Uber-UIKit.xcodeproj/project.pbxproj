@@ -115,6 +115,7 @@
 				5E5A82CF2BD3F976006379D5 /* MVVM */,
 				5E5A82CA2BD3F808006379D5 /* UI */,
 				5E5A82D32BD3FA15006379D5 /* Services */,
+				5E5A82E82BD51D94006379D5 /* Resources */,
 				5E5A82D22BD3F9F9006379D5 /* Configuration */,
 			);
 			path = "Uber-UIKit";
@@ -252,6 +253,13 @@
 				5E5A82DC2BD40251006379D5 /* AccountVC.swift */,
 			);
 			path = Account;
+			sourceTree = "<group>";
+		};
+		5E5A82E82BD51D94006379D5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
