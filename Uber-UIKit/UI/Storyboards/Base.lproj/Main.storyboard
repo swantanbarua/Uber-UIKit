@@ -68,6 +68,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="2yp-6I-Z7V"/>
+                    <connections>
+                        <outlet property="homeTableView" destination="dmD-fx-XNx" id="IO9-7e-QBE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WlS-mf-tQ7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
