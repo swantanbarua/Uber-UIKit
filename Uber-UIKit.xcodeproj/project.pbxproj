@@ -44,6 +44,9 @@
 		5E5A830F2BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */; };
 		5E5A83102BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */; };
 		5E5A83112BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */; };
+		5E5A831A2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
+		5E5A831B2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
+		5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +94,7 @@
 		5E5A83002BD528FE006379D5 /* HomeVC+InitialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+InitialSetup.swift"; sourceTree = "<group>"; };
 		5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocationPromptCell.swift; sourceTree = "<group>"; };
 		5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterLocationPromptCell.xib; sourceTree = "<group>"; };
+		5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellIdentifierEnums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -289,6 +293,7 @@
 		5E5A82E82BD51D94006379D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A83172BD52DD1006379D5 /* Helpers */,
 				5E5A82E92BD51EB4006379D5 /* Fonts */,
 			);
 			path = Resources;
@@ -381,6 +386,22 @@
 				5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */,
 			);
 			path = EnterLocationPrompt;
+			sourceTree = "<group>";
+		};
+		5E5A83172BD52DD1006379D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A83182BD52DDC006379D5 /* Enums */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5E5A83182BD52DDC006379D5 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -527,6 +548,7 @@
 				5E5A82D52BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A82D92BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A82FF2BD527FE006379D5 /* HomeVC+TableView.swift in Sources */,
+				5E5A831A2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A829F2BD3F6E8006379D5 /* HomeVC.swift in Sources */,
@@ -547,6 +569,7 @@
 				5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */,
 				5E5A830D2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A83042BD52907006379D5 /* HomeVC+TableView.swift in Sources */,
+				5E5A831B2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +583,7 @@
 				5E5A83032BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A82D72BD401FF006379D5 /* ServicesVC.swift in Sources */,
+				5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E5A83052BD52908006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E5A82BE2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift in Sources */,
 			);
