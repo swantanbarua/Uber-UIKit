@@ -9,6 +9,9 @@ import UIKit
 
 class HomeVC: UIViewController {
 
+    // MARK: - IBOUTLETS
+    @IBOutlet weak var homeTableView: UITableView!
+    
     // MARK: - VIEWCONTROLLER LIFECYCLE METHODS
     override func viewDidLoad() {
         super.viewDidLoad()
