@@ -164,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5A82CC2BD3F86C006379D5 /* Storyboards */,
+				5E5A83072BD529F0006379D5 /* XIBs */,
 				5E5A82CB2BD3F857006379D5 /* Launchscreen */,
 			);
 			path = UI;
@@ -307,6 +308,13 @@
 				5E5A82FC2BD52363006379D5 /* ColorAssets.xcassets */,
 			);
 			path = UberAssets;
+			sourceTree = "<group>";
+		};
+		5E5A83072BD529F0006379D5 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
