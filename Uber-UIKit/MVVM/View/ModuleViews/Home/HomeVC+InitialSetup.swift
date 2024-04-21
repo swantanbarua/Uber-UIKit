@@ -9,7 +9,10 @@ import UIKit
 
 extension HomeVC {
     
+    /// Function to perform initial setup of the view controller
     internal func initialSetup() {
+        
+        // Set up the home table view
         homeTableViewSetup()
     }
 }
