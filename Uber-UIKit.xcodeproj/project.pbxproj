@@ -38,6 +38,12 @@
 		5E5A83032BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83002BD528FE006379D5 /* HomeVC+InitialSetup.swift */; };
 		5E5A83042BD52907006379D5 /* HomeVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82FE2BD527FE006379D5 /* HomeVC+TableView.swift */; };
 		5E5A83052BD52908006379D5 /* HomeVC+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A82FE2BD527FE006379D5 /* HomeVC+TableView.swift */; };
+		5E5A830C2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */; };
+		5E5A830D2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */; };
+		5E5A830E2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */; };
+		5E5A830F2BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */; };
+		5E5A83102BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */; };
+		5E5A83112BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +89,8 @@
 		5E5A82FC2BD52363006379D5 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
 		5E5A82FE2BD527FE006379D5 /* HomeVC+TableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+TableView.swift"; sourceTree = "<group>"; };
 		5E5A83002BD528FE006379D5 /* HomeVC+InitialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeVC+InitialSetup.swift"; sourceTree = "<group>"; };
+		5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocationPromptCell.swift; sourceTree = "<group>"; };
+		5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterLocationPromptCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,8 +321,26 @@
 		5E5A83072BD529F0006379D5 /* XIBs */ = {
 			isa = PBXGroup;
 			children = (
+				5E5A83082BD52AF9006379D5 /* TableViewCells */,
+				5E5A83092BD52B04006379D5 /* CollectionViewCells */,
 			);
 			path = XIBs;
+			sourceTree = "<group>";
+		};
+		5E5A83082BD52AF9006379D5 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */,
+				5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		5E5A83092BD52B04006379D5 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -422,6 +448,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5A82FD2BD52363006379D5 /* ColorAssets.xcassets in Resources */,
+				5E5A830F2BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 				5E5A82F62BD5218C006379D5 /* Uber Move Bold.otf in Resources */,
 				5E5A82F72BD5218C006379D5 /* Uber Move Bold.ttf in Resources */,
 				5E5A82F82BD5218C006379D5 /* Uber Move Medium.otf in Resources */,
@@ -438,6 +465,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A83102BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +473,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5A83112BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +490,7 @@
 				5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A829F2BD3F6E8006379D5 /* HomeVC.swift in Sources */,
+				5E5A830C2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A829B2BD3F6E8006379D5 /* AppDelegate.swift in Sources */,
 				5E5A829D2BD3F6E8006379D5 /* SceneDelegate.swift in Sources */,
 			);
@@ -475,6 +505,7 @@
 				5E5A83022BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A82D62BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */,
+				5E5A830D2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A83042BD52907006379D5 /* HomeVC+TableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +515,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E5A82BC2BD3F6EE006379D5 /* Uber_UIKitUITests.swift in Sources */,
+				5E5A830E2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A82DF2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A83032BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */,
