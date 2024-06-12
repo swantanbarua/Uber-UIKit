@@ -7,6 +7,7 @@
 
 import UIKit
 
+// MARK: - TABLEVIEW SETUP
 extension HomeVC {
     
     /// Function to set up the home table view's delegate, data source, and register cells
@@ -33,9 +34,8 @@ extension HomeVC {
     }
 }
 
+// MARK: - TABLEVIEW DELEGATES
 extension HomeVC: UITableViewDelegate, UITableViewDataSource {
-    
-    // MARK: - Table View Data Source Methods
     
     /// Return the number of sections in the table view
     func numberOfSections(in tableView: UITableView) -> Int {
