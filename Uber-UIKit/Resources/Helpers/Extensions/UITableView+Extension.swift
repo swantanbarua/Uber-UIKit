@@ -12,4 +12,16 @@ extension UITableView {
     func removeTableViewSeparator() {
         self.separatorStyle = .none
     }
+    
+    func registerCells(cellIdentifiers: [String]) {
+        cellIdentifiers.forEach { cellId in
+            self.register(
+                UINib(
+                    nibName: cellId,
+                    bundle: nil
+                ),
+                forCellReuseIdentifier: cellId
+            )
+        }
+    }
 }

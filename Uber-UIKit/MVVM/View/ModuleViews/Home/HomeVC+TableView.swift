@@ -25,12 +25,10 @@ extension HomeVC {
     /// Function to register custom table view cells
     private func registerHomeTableViewCells() {
         // Register a custom table view cell using its XIB file and identifier
-        homeTableView.register(
-            UINib(
-                nibName: TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
-                bundle: nil
-            ),
-            forCellReuseIdentifier: TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue
+        homeTableView.registerCells(
+            cellIdentifiers: [
+                TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue
+            ]
         )
     }
 }
