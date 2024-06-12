@@ -9,4 +9,7 @@ import UIKit
 
 extension UITableView {
     
+    func removeTableViewSeparator() {
+        self.separatorStyle = .none
+    }
 }
