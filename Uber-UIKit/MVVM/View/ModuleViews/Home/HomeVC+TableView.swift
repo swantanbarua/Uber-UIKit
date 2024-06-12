@@ -12,9 +12,11 @@ extension HomeVC {
     /// Function to set up the home table view's delegate, data source, and register cells
     internal func homeTableViewSetup() {
 
-        // / Set the delegate and data source of the home table view to self
+        // Set the delegate and data source of the home table view to self
         homeTableView.delegate = self
         homeTableView.dataSource = self
+        
+        homeTableView.separatorStyle = .none
         
         // Register custom table view cells
         registerHomeTableViewCells()

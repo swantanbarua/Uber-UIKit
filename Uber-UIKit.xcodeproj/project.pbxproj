@@ -47,12 +47,15 @@
 		5E5A831A2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
 		5E5A831B2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
 		5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */; };
-		5E5A83202BD53098006379D5 /* UIViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */; };
-		5E5A83212BD53098006379D5 /* UIViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */; };
-		5E5A83222BD53098006379D5 /* UIViewModifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */; };
 		5E8A6BFD2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */; };
 		5E8A6BFE2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */; };
 		5E8A6BFF2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */; };
+		5E8A96022C19D8E000E50E9D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A96012C19D8E000E50E9D /* UIView+Extension.swift */; };
+		5E8A96032C19D8E000E50E9D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A96012C19D8E000E50E9D /* UIView+Extension.swift */; };
+		5E8A96042C19D8E000E50E9D /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A96012C19D8E000E50E9D /* UIView+Extension.swift */; };
+		5E8A96062C19D8F600E50E9D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */; };
+		5E8A96072C19D8F600E50E9D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */; };
+		5E8A96082C19D8F600E50E9D /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,8 +104,9 @@
 		5E5A830A2BD52B6B006379D5 /* EnterLocationPromptCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterLocationPromptCell.swift; sourceTree = "<group>"; };
 		5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterLocationPromptCell.xib; sourceTree = "<group>"; };
 		5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellIdentifierEnums.swift; sourceTree = "<group>"; };
-		5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewModifierExtension.swift; sourceTree = "<group>"; };
 		5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnterLocationPromptCell+InitialSetup.swift"; sourceTree = "<group>"; };
+		5E8A96012C19D8E000E50E9D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -417,17 +421,10 @@
 		5E5A831D2BD5304D006379D5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A831E2BD5305B006379D5 /* ViewModifiers */,
+				5E8A96012C19D8E000E50E9D /* UIView+Extension.swift */,
+				5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		5E5A831E2BD5305B006379D5 /* ViewModifiers */ = {
-			isa = PBXGroup;
-			children = (
-				5E5A831F2BD53098006379D5 /* UIViewModifierExtension.swift */,
-			);
-			path = ViewModifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -576,13 +573,14 @@
 				5E5A82FF2BD527FE006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E5A831A2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E8A6BFD2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */,
-				5E5A83202BD53098006379D5 /* UIViewModifierExtension.swift in Sources */,
 				5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */,
+				5E8A96022C19D8E000E50E9D /* UIView+Extension.swift in Sources */,
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A829F2BD3F6E8006379D5 /* HomeVC.swift in Sources */,
 				5E5A830C2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A829B2BD3F6E8006379D5 /* AppDelegate.swift in Sources */,
 				5E5A829D2BD3F6E8006379D5 /* SceneDelegate.swift in Sources */,
+				5E8A96062C19D8F600E50E9D /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -590,8 +588,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8A96072C19D8F600E50E9D /* UITableView+Extension.swift in Sources */,
 				5E8A6BFE2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */,
-				5E5A83212BD53098006379D5 /* UIViewModifierExtension.swift in Sources */,
 				5E5A82DE2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A82DA2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A83022BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
@@ -599,6 +597,7 @@
 				5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */,
 				5E5A830D2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A83042BD52907006379D5 /* HomeVC+TableView.swift in Sources */,
+				5E8A96032C19D8E000E50E9D /* UIView+Extension.swift in Sources */,
 				5E5A831B2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -607,10 +606,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8A96042C19D8E000E50E9D /* UIView+Extension.swift in Sources */,
 				5E5A82BC2BD3F6EE006379D5 /* Uber_UIKitUITests.swift in Sources */,
 				5E5A830E2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A82DF2BD40251006379D5 /* AccountVC.swift in Sources */,
-				5E5A83222BD53098006379D5 /* UIViewModifierExtension.swift in Sources */,
 				5E5A83032BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E8A6BFF2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */,
 				5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */,
@@ -618,6 +617,7 @@
 				5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E5A83052BD52908006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E5A82BE2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift in Sources */,
+				5E8A96082C19D8F600E50E9D /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
