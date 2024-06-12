@@ -8,8 +8,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Uber Move Medium.otf">
-            <string>UberMove-Medium</string>
+        <array key="UberMoveBold.otf">
+            <string>UberMove-Bold</string>
         </array>
     </customFonts>
     <objects>
@@ -34,8 +34,8 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Where to?" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpi-Oj-P39">
-                                <rect key="frame" x="51.999999999999993" y="13" width="90.333333333333314" height="24"/>
-                                <fontDescription key="fontDescription" name="UberMove-Medium" family="Uber Move" pointSize="20"/>
+                                <rect key="frame" x="52" y="13" width="94" height="24"/>
+                                <fontDescription key="fontDescription" name="UberMove-Bold" family="Uber Move" pointSize="20"/>
                                 <color key="textColor" name="LabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
