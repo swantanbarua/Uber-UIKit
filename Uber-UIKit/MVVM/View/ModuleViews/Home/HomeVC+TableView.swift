@@ -17,6 +17,7 @@ extension HomeVC {
         homeTableView.delegate = self
         homeTableView.dataSource = self
         
+        // Remove the default table view separator lines
         homeTableView.removeTableViewSeparator()
         
         // Register custom table view cells
