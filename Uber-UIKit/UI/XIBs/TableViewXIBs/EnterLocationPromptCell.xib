@@ -8,8 +8,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="UberMoveBold.otf">
+        <array key="Uber Move Bold.ttf">
             <string>UberMove-Bold</string>
+        </array>
+        <array key="Uber Move Medium.otf">
+            <string>UberMove-Medium</string>
         </array>
     </customFonts>
     <objects>
@@ -40,10 +43,35 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzw-sq-yEN">
-                                <rect key="frame" x="309" y="10" width="80" height="30"/>
+                                <rect key="frame" x="289" y="8" width="100" height="34"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="b9r-YI-EzK">
+                                        <rect key="frame" x="8" y="0.0" width="84" height="34"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="clock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="k1O-vd-BzO">
+                                                <rect key="frame" x="0.0" y="1" width="25.333333333333332" height="32.666666666666671"/>
+                                                <color key="tintColor" name="LabelColor"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Now" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bnv-ZQ-wgH">
+                                                <rect key="frame" x="29.333333333333314" y="0.0" width="25.333333333333329" height="34"/>
+                                                <fontDescription key="fontDescription" name="UberMove-Medium" family="Uber Move" pointSize="12"/>
+                                                <color key="textColor" name="LabelColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.down" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="K78-4c-RJ2">
+                                                <rect key="frame" x="58.666666666666693" y="5.3333333333333321" width="25.333333333333336" height="23.999999999999996"/>
+                                                <color key="tintColor" name="LabelColor"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
                                 <color key="backgroundColor" name="BackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="PRR-ro-wFA"/>
+                                    <constraint firstItem="b9r-YI-EzK" firstAttribute="leading" secondItem="vzw-sq-yEN" secondAttribute="leading" constant="8" id="2OJ-Xc-FE1"/>
+                                    <constraint firstAttribute="bottom" secondItem="b9r-YI-EzK" secondAttribute="bottom" id="2qr-rs-MfM"/>
+                                    <constraint firstItem="b9r-YI-EzK" firstAttribute="top" secondItem="vzw-sq-yEN" secondAttribute="top" id="EWJ-Ey-NK8"/>
+                                    <constraint firstAttribute="width" constant="100" id="PRR-ro-wFA"/>
+                                    <constraint firstAttribute="trailing" secondItem="b9r-YI-EzK" secondAttribute="trailing" constant="8" id="elT-Yr-TZi"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -51,12 +79,12 @@
                         <constraints>
                             <constraint firstItem="xpi-Oj-P39" firstAttribute="centerY" secondItem="AUf-Nc-0Zd" secondAttribute="centerY" id="3fZ-FM-ZT7"/>
                             <constraint firstAttribute="height" constant="50" id="7sD-Zq-hlV"/>
-                            <constraint firstItem="vzw-sq-yEN" firstAttribute="top" secondItem="IOE-bK-g9w" secondAttribute="top" constant="10" id="P8Y-bf-9BQ"/>
+                            <constraint firstItem="vzw-sq-yEN" firstAttribute="top" secondItem="IOE-bK-g9w" secondAttribute="top" constant="8" id="P8Y-bf-9BQ"/>
                             <constraint firstItem="AUf-Nc-0Zd" firstAttribute="leading" secondItem="IOE-bK-g9w" secondAttribute="leading" constant="16" id="PnX-YJ-FBQ"/>
                             <constraint firstAttribute="trailing" secondItem="vzw-sq-yEN" secondAttribute="trailing" constant="16" id="VCq-o0-hAd"/>
                             <constraint firstItem="xpi-Oj-P39" firstAttribute="leading" secondItem="AUf-Nc-0Zd" secondAttribute="trailing" constant="16" id="am8-3h-aUv"/>
                             <constraint firstItem="AUf-Nc-0Zd" firstAttribute="centerY" secondItem="IOE-bK-g9w" secondAttribute="centerY" id="dM5-US-XQp"/>
-                            <constraint firstAttribute="bottom" secondItem="vzw-sq-yEN" secondAttribute="bottom" constant="10" id="s1z-00-xzj"/>
+                            <constraint firstAttribute="bottom" secondItem="vzw-sq-yEN" secondAttribute="bottom" constant="8" id="s1z-00-xzj"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -78,6 +106,8 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name="chevron.down" catalog="system" width="128" height="70"/>
+        <image name="clock.fill" catalog="system" width="128" height="123"/>
         <image name="location.magnifyingglass" catalog="system" width="128" height="117"/>
         <namedColor name="BackgroundColor">
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
