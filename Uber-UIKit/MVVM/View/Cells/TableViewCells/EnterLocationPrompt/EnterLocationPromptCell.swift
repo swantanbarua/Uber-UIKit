@@ -13,6 +13,7 @@ class EnterLocationPromptCell: UITableViewCell {
     
     /// Outlet to the view representing the capsule shape
     @IBOutlet weak var capsuleView: UIView!
+    @IBOutlet weak var nowContainerView: UIView!
     
     // MARK: - LIFECYCLE METHODS
     override func awakeFromNib() {

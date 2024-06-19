@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -39,14 +39,24 @@
                                 <color key="textColor" name="LabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vzw-sq-yEN">
+                                <rect key="frame" x="309" y="10" width="80" height="30"/>
+                                <color key="backgroundColor" name="BackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="PRR-ro-wFA"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" name="Gray68"/>
                         <constraints>
                             <constraint firstItem="xpi-Oj-P39" firstAttribute="centerY" secondItem="AUf-Nc-0Zd" secondAttribute="centerY" id="3fZ-FM-ZT7"/>
                             <constraint firstAttribute="height" constant="50" id="7sD-Zq-hlV"/>
+                            <constraint firstItem="vzw-sq-yEN" firstAttribute="top" secondItem="IOE-bK-g9w" secondAttribute="top" constant="10" id="P8Y-bf-9BQ"/>
                             <constraint firstItem="AUf-Nc-0Zd" firstAttribute="leading" secondItem="IOE-bK-g9w" secondAttribute="leading" constant="16" id="PnX-YJ-FBQ"/>
+                            <constraint firstAttribute="trailing" secondItem="vzw-sq-yEN" secondAttribute="trailing" constant="16" id="VCq-o0-hAd"/>
                             <constraint firstItem="xpi-Oj-P39" firstAttribute="leading" secondItem="AUf-Nc-0Zd" secondAttribute="trailing" constant="16" id="am8-3h-aUv"/>
                             <constraint firstItem="AUf-Nc-0Zd" firstAttribute="centerY" secondItem="IOE-bK-g9w" secondAttribute="centerY" id="dM5-US-XQp"/>
+                            <constraint firstAttribute="bottom" secondItem="vzw-sq-yEN" secondAttribute="bottom" constant="10" id="s1z-00-xzj"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -62,6 +72,7 @@
             <color key="backgroundColor" name="BackgroundColor"/>
             <connections>
                 <outlet property="capsuleView" destination="IOE-bK-g9w" id="Bot-PF-lL7"/>
+                <outlet property="nowContainerView" destination="vzw-sq-yEN" id="C9H-4F-Q9z"/>
             </connections>
             <point key="canvasLocation" x="164.12213740458014" y="36.971830985915496"/>
         </tableViewCell>
@@ -72,7 +83,7 @@
             <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Gray68">
-            <color red="0.67843137254901964" green="0.67843137254901964" blue="0.67843137254901964" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.82745098039215681" green="0.82745098039215681" blue="0.82745098039215681" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="LabelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
