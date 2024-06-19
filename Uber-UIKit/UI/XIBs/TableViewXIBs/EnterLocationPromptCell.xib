@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="Uber Move Bold.otf">
+        <array key="UberMoveBold.otf">
             <string>UberMove-Bold</string>
         </array>
         <array key="UberMoveMedium.otf">
@@ -85,17 +85,28 @@
                                     <constraint firstItem="SgP-PG-4qK" firstAttribute="leading" secondItem="vzw-sq-yEN" secondAttribute="leading" id="njv-eI-QVz"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nGT-tt-Wo5">
+                                <rect key="frame" x="0.0" y="0.0" width="289" height="50"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="enterDropLocationTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FLv-1I-opB"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" name="Gray68"/>
                         <constraints>
                             <constraint firstItem="xpi-Oj-P39" firstAttribute="centerY" secondItem="AUf-Nc-0Zd" secondAttribute="centerY" id="3fZ-FM-ZT7"/>
                             <constraint firstAttribute="height" constant="50" id="7sD-Zq-hlV"/>
+                            <constraint firstItem="nGT-tt-Wo5" firstAttribute="leading" secondItem="IOE-bK-g9w" secondAttribute="leading" id="89F-Ys-8Os"/>
+                            <constraint firstAttribute="bottom" secondItem="nGT-tt-Wo5" secondAttribute="bottom" id="JdL-uf-Eev"/>
+                            <constraint firstItem="vzw-sq-yEN" firstAttribute="leading" secondItem="nGT-tt-Wo5" secondAttribute="trailing" id="Oya-ZC-B5k"/>
                             <constraint firstItem="vzw-sq-yEN" firstAttribute="top" secondItem="IOE-bK-g9w" secondAttribute="top" constant="8" id="P8Y-bf-9BQ"/>
                             <constraint firstItem="AUf-Nc-0Zd" firstAttribute="leading" secondItem="IOE-bK-g9w" secondAttribute="leading" constant="16" id="PnX-YJ-FBQ"/>
                             <constraint firstAttribute="trailing" secondItem="vzw-sq-yEN" secondAttribute="trailing" constant="16" id="VCq-o0-hAd"/>
                             <constraint firstItem="xpi-Oj-P39" firstAttribute="leading" secondItem="AUf-Nc-0Zd" secondAttribute="trailing" constant="16" id="am8-3h-aUv"/>
                             <constraint firstItem="AUf-Nc-0Zd" firstAttribute="centerY" secondItem="IOE-bK-g9w" secondAttribute="centerY" id="dM5-US-XQp"/>
                             <constraint firstAttribute="bottom" secondItem="vzw-sq-yEN" secondAttribute="bottom" constant="8" id="s1z-00-xzj"/>
+                            <constraint firstItem="nGT-tt-Wo5" firstAttribute="top" secondItem="IOE-bK-g9w" secondAttribute="top" id="yq5-9D-1WQ"/>
                         </constraints>
                     </view>
                 </subviews>

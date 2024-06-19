@@ -28,6 +28,9 @@ class EnterLocationPromptCell: UITableViewCell {
     }
     
     // MARK: - IBACTIONS
+    @IBAction func enterDropLocationTapped(_ sender: UIButton) {
+    }
+    
     @IBAction func nowCapsuleTapped(_ sender: UIButton) {
     }
 }
