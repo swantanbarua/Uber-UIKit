@@ -40,7 +40,7 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     
     /// Return the number of sections in the table view
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 7 // Hardcoded number of sections
+        return 1 // Hardcoded number of sections
     }
     
     /// Return the number of rows in the specified section
