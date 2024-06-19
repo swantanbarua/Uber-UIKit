@@ -11,14 +11,19 @@ extension EnterLocationPromptCell {
     
     /// Initial setup function
     internal func initialSetup() {
+        // Set corner radius to all views
         setCornerRadiusToAllViews()
         
         // Apply shadow properties to the capsule view for a better visual effect
         applyShadowToCapsuleView()
     }
-    
+
+    /// Function to set corner radius to all views
     private func setCornerRadiusToAllViews() {
+        // Set corner radius to the capsule view
         setCornerRadiusToCapsuleView()
+        
+        // Set corner radius to the now container view
         setCornerRadiusToNowContainerView()
     }
 
@@ -27,8 +32,10 @@ extension EnterLocationPromptCell {
         // Apply a capsule shape by setting the corner radius to 25
         capsuleView.setCornerRadius(radius: 25)
     }
-    
+
+    /// Function to set corner radius to the now container view
     private func setCornerRadiusToNowContainerView() {
+        // Apply a rounded shape by setting the corner radius to 15
         nowContainerView.setCornerRadius(radius: 15)
     }
     
