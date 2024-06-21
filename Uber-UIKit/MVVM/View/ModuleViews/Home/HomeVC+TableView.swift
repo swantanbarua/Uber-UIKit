@@ -46,7 +46,11 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     
     /// Return the number of rows in the specified section
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1 // Each section has one row
+        if section == 0 {
+            return 1
+        } else {
+            return 2
+        }
     }
     
     /// Provide a cell to display for a given row and section
@@ -64,6 +68,9 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
                 withIdentifier: TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue,
                 for: indexPath
             ) as? SuggestedDestinationCell else { return UITableViewCell() }
+            
+            cell.destinationNameLabel.text = destinationNames[indexPath.row]
+            cell.destinationAddressLabel.text = destinationAddresses[indexPath.row]
             return cell
         }
     }

@@ -31,7 +31,7 @@
                         <color key="textColor" name="LabelColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Avenida de Concha Espina, 1, 28036 Madrid, Spain." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ8-S4-yga">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Avenida de Concha Espina, 1, 28036 Madrid, Spain" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ8-S4-yga">
                         <rect key="frame" x="48" y="34.666666666666664" width="256" height="29.333333333333336"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
                         <color key="textColor" name="LabelColor"/>
@@ -51,6 +51,10 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="destinationAddressLabel" destination="TZ8-S4-yga" id="o1Q-fh-F2R"/>
+                <outlet property="destinationNameLabel" destination="Sqf-39-pod" id="3zZ-7T-rsr"/>
+            </connections>
             <point key="canvasLocation" x="-61.068702290076331" y="48.591549295774648"/>
         </tableViewCell>
     </objects>

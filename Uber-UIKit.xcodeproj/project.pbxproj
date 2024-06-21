@@ -62,6 +62,9 @@
 		5E8F43302C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */; };
 		5E8F43312C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */; };
 		5E8F43322C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */; };
+		5E8F43352C25EE7F00384900 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43342C25EE7F00384900 /* Constants.swift */; };
+		5E8F43362C25EE7F00384900 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43342C25EE7F00384900 /* Constants.swift */; };
+		5E8F43372C25EE7F00384900 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43342C25EE7F00384900 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,6 +118,7 @@
 		5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		5E8F432B2C25E6ED00384900 /* SuggestedDestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedDestinationCell.swift; sourceTree = "<group>"; };
 		5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestedDestinationCell.xib; sourceTree = "<group>"; };
+		5E8F43342C25EE7F00384900 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,6 +318,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5A83172BD52DD1006379D5 /* Helpers */,
+				5E8F43342C25EE7F00384900 /* Constants.swift */,
 				5E5A82E92BD51EB4006379D5 /* Fonts */,
 			);
 			path = Resources;
@@ -594,6 +599,7 @@
 				5E5A82FF2BD527FE006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E5A831A2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E8A6BFD2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */,
+				5E8F43352C25EE7F00384900 /* Constants.swift in Sources */,
 				5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E8A96022C19D8E000E50E9D /* UIView+Extension.swift in Sources */,
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
@@ -617,6 +623,7 @@
 				5E5A83022BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A82D62BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */,
+				5E8F43362C25EE7F00384900 /* Constants.swift in Sources */,
 				5E5A830D2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
 				5E5A83042BD52907006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E8A96032C19D8E000E50E9D /* UIView+Extension.swift in Sources */,
@@ -640,6 +647,7 @@
 				5E5A82D72BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E5A83052BD52908006379D5 /* HomeVC+TableView.swift in Sources */,
+				5E8F43372C25EE7F00384900 /* Constants.swift in Sources */,
 				5E5A82BE2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift in Sources */,
 				5E8A96082C19D8F600E50E9D /* UITableView+Extension.swift in Sources */,
 			);
