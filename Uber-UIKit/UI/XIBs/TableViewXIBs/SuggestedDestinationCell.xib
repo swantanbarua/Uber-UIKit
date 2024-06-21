@@ -10,29 +10,48 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="KGk-i7-Jjw" customClass="SuggestedDestinationCell" customModule="Uber_UIKit" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="79" id="KGk-i7-Jjw" customClass="SuggestedDestinationCell" customModule="Uber_UIKit" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="pme-Ff-Jz4">
-                        <rect key="frame" x="16" y="26" width="20" height="18.666666666666671"/>
+                        <rect key="frame" x="16" y="30.666666666666664" width="20" height="18.666666666666664"/>
                         <color key="tintColor" name="LabelColor"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="20" id="HQb-ic-sze"/>
                             <constraint firstAttribute="width" constant="20" id="pkl-ju-Z7A"/>
                         </constraints>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Santiago Bernabeu" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sqf-39-pod">
+                        <rect key="frame" x="48" y="11.999999999999998" width="256" height="16.333333333333329"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                        <color key="textColor" name="LabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avenida de Concha Espina, 1, 28036 Madrid, Spain." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZ8-S4-yga">
+                        <rect key="frame" x="48" y="32.333333333333343" width="256" height="34.666666666666657"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" name="LabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="Sqf-39-pod" firstAttribute="leading" secondItem="pme-Ff-Jz4" secondAttribute="trailing" constant="12" id="GGV-Ic-dA6"/>
                     <constraint firstItem="pme-Ff-Jz4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Pec-Ne-oGg"/>
                     <constraint firstItem="pme-Ff-Jz4" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ZFo-lS-xFx"/>
+                    <constraint firstAttribute="trailing" secondItem="Sqf-39-pod" secondAttribute="trailing" constant="16" id="ZOQ-uB-rZo"/>
+                    <constraint firstAttribute="trailing" secondItem="TZ8-S4-yga" secondAttribute="trailing" constant="16" id="cIX-Wx-prA"/>
+                    <constraint firstAttribute="bottom" secondItem="TZ8-S4-yga" secondAttribute="bottom" constant="12" id="q51-lU-Elx"/>
+                    <constraint firstItem="Sqf-39-pod" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="tQh-w9-2cL"/>
+                    <constraint firstItem="TZ8-S4-yga" firstAttribute="leading" secondItem="pme-Ff-Jz4" secondAttribute="trailing" constant="12" id="ukF-Nb-xVg"/>
+                    <constraint firstItem="TZ8-S4-yga" firstAttribute="top" secondItem="Sqf-39-pod" secondAttribute="bottom" constant="4" id="v8X-qq-H9j"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <point key="canvasLocation" x="-61.068702290076331" y="38.732394366197184"/>
+            <point key="canvasLocation" x="-61.068702290076331" y="49.647887323943664"/>
         </tableViewCell>
     </objects>
     <resources>
