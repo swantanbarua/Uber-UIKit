@@ -10,4 +10,5 @@ import Foundation
 enum TableViewCellIdentifierEnums: String {
     
     case EnterLocationPromptCell
+    case SuggestedDestinationCell
 }

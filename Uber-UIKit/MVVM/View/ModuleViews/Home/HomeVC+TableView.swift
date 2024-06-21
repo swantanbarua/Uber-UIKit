@@ -40,7 +40,7 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     
     /// Return the number of sections in the table view
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1 // Hardcoded number of sections
+        return 2
     }
     
     /// Return the number of rows in the specified section
@@ -51,10 +51,19 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     /// Provide a cell to display for a given row and section
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // Dequeue a reusable table view cell of the specified type
-        guard let cell = tableView.dequeueReusableCell(
-            withIdentifier: TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
-            for: indexPath
-        ) as? EnterLocationPromptCell else { return UITableViewCell() } // Cast the dequeued cell to a custom cell type
-        return cell // Return the dequeued cell
+        
+        if indexPath.section == 0 {
+            guard let cell = tableView.dequeueReusableCell(
+                withIdentifier: TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
+                for: indexPath
+            ) as? EnterLocationPromptCell else { return UITableViewCell() } // Cast the dequeued cell to a custom cell type
+            return cell // Return the dequeued cell
+        } else {
+            guard let cell = tableView.dequeueReusableCell(
+                withIdentifier: TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue,
+                for: indexPath
+            ) as? SuggestedDestinationCell else { return UITableViewCell() }
+            return cell
+        }
     }
 }
