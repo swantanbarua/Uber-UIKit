@@ -29,7 +29,8 @@ extension HomeVC {
         // Register a custom table view cell using its XIB file and identifier
         homeTableView.registerCells(
             cellIdentifiers: [
-                TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue
+                TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
+                TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue
             ]
         )
     }
