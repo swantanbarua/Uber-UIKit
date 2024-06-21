@@ -354,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */,
+				5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */,
 			);
 			path = TableViewXIBs;
 			sourceTree = "<group>";
@@ -369,8 +370,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5A83162BD52D32006379D5 /* EnterLocationPrompt */,
-				5E8F432B2C25E6ED00384900 /* SuggestedDestinationCell.swift */,
-				5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */,
+				5E8F43332C25E75E00384900 /* SuggestedDestination */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -435,6 +435,14 @@
 				5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E8F43332C25E75E00384900 /* SuggestedDestination */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F432B2C25E6ED00384900 /* SuggestedDestinationCell.swift */,
+			);
+			path = SuggestedDestination;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
