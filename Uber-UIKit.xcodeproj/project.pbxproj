@@ -65,6 +65,12 @@
 		5E8F43352C25EE7F00384900 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43342C25EE7F00384900 /* Constants.swift */; };
 		5E8F43362C25EE7F00384900 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43342C25EE7F00384900 /* Constants.swift */; };
 		5E8F43372C25EE7F00384900 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43342C25EE7F00384900 /* Constants.swift */; };
+		5E8F43392C26A2F000384900 /* Common.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F43382C26A2F000384900 /* Common.storyboard */; };
+		5E8F433A2C26A2F000384900 /* Common.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F43382C26A2F000384900 /* Common.storyboard */; };
+		5E8F433B2C26A2F000384900 /* Common.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E8F43382C26A2F000384900 /* Common.storyboard */; };
+		5E8F43432C26A44F00384900 /* LocationCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43422C26A44F00384900 /* LocationCardVC.swift */; };
+		5E8F43442C26A44F00384900 /* LocationCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43422C26A44F00384900 /* LocationCardVC.swift */; };
+		5E8F43452C26A44F00384900 /* LocationCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8F43422C26A44F00384900 /* LocationCardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +125,8 @@
 		5E8F432B2C25E6ED00384900 /* SuggestedDestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedDestinationCell.swift; sourceTree = "<group>"; };
 		5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestedDestinationCell.xib; sourceTree = "<group>"; };
 		5E8F43342C25EE7F00384900 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E8F43382C26A2F000384900 /* Common.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Common.storyboard; sourceTree = "<group>"; };
+		5E8F43422C26A44F00384900 /* LocationCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +226,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5A82A02BD3F6E8006379D5 /* Main.storyboard */,
+				5E8F43382C26A2F000384900 /* Common.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				5E5A83152BD52CE2006379D5 /* ModuleViews */,
+				5E8F433C2C26A3FB00384900 /* New Group */,
 				5E5A83142BD52CBE006379D5 /* Cells */,
 			);
 			path = View;
@@ -399,6 +409,7 @@
 		5E5A83152BD52CE2006379D5 /* ModuleViews */ = {
 			isa = PBXGroup;
 			children = (
+				5E8F433D2C26A41000384900 /* Common */,
 				5E5A82E02BD40364006379D5 /* Home */,
 				5E5A82E12BD4036A006379D5 /* Services */,
 				5E5A82E22BD40386006379D5 /* Activity */,
@@ -448,6 +459,21 @@
 				5E8F432B2C25E6ED00384900 /* SuggestedDestinationCell.swift */,
 			);
 			path = SuggestedDestination;
+			sourceTree = "<group>";
+		};
+		5E8F433C2C26A3FB00384900 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		5E8F433D2C26A41000384900 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5E8F43422C26A44F00384900 /* LocationCardVC.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -554,6 +580,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8F43392C26A2F000384900 /* Common.storyboard in Resources */,
 				5E5A82FD2BD52363006379D5 /* ColorAssets.xcassets in Resources */,
 				5E5A830F2BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 				5E8F43302C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
@@ -573,6 +600,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8F433A2C26A2F000384900 /* Common.storyboard in Resources */,
 				5E8F43312C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
 				5E5A83102BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 			);
@@ -582,6 +610,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8F433B2C26A2F000384900 /* Common.storyboard in Resources */,
 				5E8F43322C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
 				5E5A83112BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 			);
@@ -605,6 +634,7 @@
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A829F2BD3F6E8006379D5 /* HomeVC.swift in Sources */,
 				5E5A830C2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
+				5E8F43432C26A44F00384900 /* LocationCardVC.swift in Sources */,
 				5E5A829B2BD3F6E8006379D5 /* AppDelegate.swift in Sources */,
 				5E5A829D2BD3F6E8006379D5 /* SceneDelegate.swift in Sources */,
 				5E8F432D2C25E6ED00384900 /* SuggestedDestinationCell.swift in Sources */,
@@ -621,6 +651,7 @@
 				5E5A82DE2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A82DA2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A83022BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
+				5E8F43442C26A44F00384900 /* LocationCardVC.swift in Sources */,
 				5E5A82D62BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */,
 				5E8F43362C25EE7F00384900 /* Constants.swift in Sources */,
@@ -648,6 +679,7 @@
 				5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E5A83052BD52908006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E8F43372C25EE7F00384900 /* Constants.swift in Sources */,
+				5E8F43452C26A44F00384900 /* LocationCardVC.swift in Sources */,
 				5E5A82BE2BD3F6EE006379D5 /* Uber_UIKitUITestsLaunchTests.swift in Sources */,
 				5E8A96082C19D8F600E50E9D /* UITableView+Extension.swift in Sources */,
 			);
