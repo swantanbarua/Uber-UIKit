@@ -15,10 +15,10 @@ extension HomeVC {
         // Set up the home table view
         homeTableViewSetup()
         
-        addLongPressGestureRecognizer()
+        addLongPressGestureRecognizer(to: homeTableView)
     }
     
-    private func addLongPressGestureRecognizer() {
+    private func addLongPressGestureRecognizer(to: UITableView) {
         let longPressRecognizer = UILongPressGestureRecognizer(
             target: self,
             action: #selector(handleLongPress)
