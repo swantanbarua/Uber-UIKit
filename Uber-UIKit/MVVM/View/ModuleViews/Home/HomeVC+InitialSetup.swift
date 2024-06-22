@@ -32,10 +32,11 @@ extension HomeVC {
             let point = gestureRecognizer.location(in: homeTableView)
             if let indexPath = homeTableView.indexPathForRow(at: point) {
                 if indexPath.section == 1 {
-                    let locationCardVC = LocationCardVC()
+                    let storyboard = UIStoryboard(name: "Common", bundle: nil)
+                    let locationCardVC = storyboard.instantiateViewController(withIdentifier: "LocationCardVC") as! LocationCardVC
                     locationCardVC.modalPresentationStyle = .overCurrentContext
                     locationCardVC.modalTransitionStyle = .crossDissolve
-                    self.present(locationCardVC, animated: true)
+                    self.present(locationCardVC, animated: true, completion: nil)
                 }
             }
         }

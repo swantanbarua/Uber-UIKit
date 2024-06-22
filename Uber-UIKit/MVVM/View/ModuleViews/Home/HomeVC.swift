@@ -9,6 +9,7 @@ import UIKit
 
 class HomeVC: UIViewController {
 
+    var moveView: UIView?
     // MARK: - IBOUTLETS
     
     /// Outlet to the table view in the home view controller
