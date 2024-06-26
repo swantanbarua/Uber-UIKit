@@ -30,7 +30,8 @@ extension HomeVC {
         homeTableView.registerCells(
             cellIdentifiers: [
                 TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
-                TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue
+                TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue,
+                TableViewCellIdentifierEnums.SuggestedVehiclesCell.rawValue
             ]
         )
     }
@@ -41,15 +42,17 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     
     /// Return the number of sections in the table view
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 2
+        return 3
     }
     
     /// Return the number of rows in the specified section
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if section == 0 {
             return 1
-        } else {
+        } else if section == 1 {
             return 2
+        } else {
+            return 1
         }
     }
     
@@ -63,7 +66,7 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
                 for: indexPath
             ) as? EnterLocationPromptCell else { return UITableViewCell() } // Cast the dequeued cell to a custom cell type
             return cell // Return the dequeued cell
-        } else {
+        } else if indexPath.section == 1 {
             guard let cell = tableView.dequeueReusableCell(
                 withIdentifier: TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue,
                 for: indexPath
@@ -71,6 +74,13 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             
             cell.destinationNameLabel.text = destinationNames[indexPath.row]
             cell.destinationAddressLabel.text = destinationAddresses[indexPath.row]
+            return cell
+        } else {
+            guard let cell = tableView.dequeueReusableCell(
+                withIdentifier: TableViewCellIdentifierEnums.SuggestedVehiclesCell.rawValue,
+                for: indexPath
+            ) as? SuggestedVehiclesCell else { return UITableViewCell() }
+            
             return cell
         }
     }
