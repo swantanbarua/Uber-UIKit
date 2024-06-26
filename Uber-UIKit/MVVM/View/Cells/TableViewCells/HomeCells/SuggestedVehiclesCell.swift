@@ -21,4 +21,6 @@ class SuggestedVehiclesCell: UITableViewCell {
     }
     
     // MARK: - IBACTIONS
+    @IBAction func seeMoreVehiclesTapped(_ sender: UIButton) {
+    }
 }
