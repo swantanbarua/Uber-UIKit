@@ -12,4 +12,5 @@ enum TableViewCellIdentifierEnums: String {
     case EnterLocationPromptCell
     case SuggestedDestinationCell
     case SuggestedVehiclesCell
+    case CommuteSmarterCell
 }

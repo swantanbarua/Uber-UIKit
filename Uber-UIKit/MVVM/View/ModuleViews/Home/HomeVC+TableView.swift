@@ -31,7 +31,8 @@ extension HomeVC {
             cellIdentifiers: [
                 TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
                 TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue,
-                TableViewCellIdentifierEnums.SuggestedVehiclesCell.rawValue
+                TableViewCellIdentifierEnums.SuggestedVehiclesCell.rawValue,
+                TableViewCellIdentifierEnums.CommuteSmarterCell.rawValue
             ]
         )
     }
@@ -42,12 +43,14 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
     
     /// Return the number of sections in the table view
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 3
+        return 4
     }
     
     /// Return the number of rows in the specified section
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 {
+        let sectionsHavingRows1 = [0, 2]
+        
+        if sectionsHavingRows1.contains(section)  {
             return 1
         } else if section == 1 {
             return 2
@@ -75,11 +78,18 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             cell.destinationNameLabel.text = destinationNames[indexPath.row]
             cell.destinationAddressLabel.text = destinationAddresses[indexPath.row]
             return cell
-        } else {
+        } else if indexPath.section == 2 {
             guard let cell = tableView.dequeueReusableCell(
                 withIdentifier: TableViewCellIdentifierEnums.SuggestedVehiclesCell.rawValue,
                 for: indexPath
             ) as? SuggestedVehiclesCell else { return UITableViewCell() }
+            
+            return cell
+        } else {
+            guard let cell = tableView.dequeueReusableCell(
+                withIdentifier: TableViewCellIdentifierEnums.CommuteSmarterCell.rawValue,
+                for: indexPath
+            ) as? CommuteSmarterCell else { return UITableViewCell() }
             
             return cell
         }
