@@ -10,6 +10,7 @@ import UIKit
 class LocationCardVC: UIViewController {
 
     // MARK: - IBOUTLETS
+    @IBOutlet weak var locationCard: UIView!
     
     // MARK: - VIEWCONTROLLER LIFECYCLE METHODS
     override func viewDidLoad() {
@@ -17,4 +18,7 @@ class LocationCardVC: UIViewController {
     }
     
     // MARK: - IBACTIONS
+    @IBAction func exitPopupTapped(_ sender: UIButton) {
+        self.dismiss(animated: true)
+    }
 }

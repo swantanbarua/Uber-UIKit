@@ -16,6 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kBm-OD-nDx">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="exitPopupTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="eaG-AF-sGa"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lwr-rT-AIg" userLabel="Location Card">
                                 <rect key="frame" x="32" y="326" width="329" height="200"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -27,12 +35,19 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="kBm-OD-nDx" secondAttribute="bottom" id="2Wk-GR-iZm"/>
                             <constraint firstItem="lwr-rT-AIg" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="32" id="QJ3-xi-ZpJ"/>
+                            <constraint firstAttribute="trailing" secondItem="kBm-OD-nDx" secondAttribute="trailing" id="UUc-3W-nKv"/>
                             <constraint firstItem="lwr-rT-AIg" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="jQj-VY-Bq0"/>
                             <constraint firstItem="lwr-rT-AIg" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="ouD-2j-vpU"/>
+                            <constraint firstItem="kBm-OD-nDx" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="q4P-xG-qDK"/>
+                            <constraint firstItem="kBm-OD-nDx" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="rCJ-Ob-pRQ"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="lwr-rT-AIg" secondAttribute="trailing" constant="32" id="zyc-GH-axa"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="locationCard" destination="lwr-rT-AIg" id="O4q-g8-wlN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
