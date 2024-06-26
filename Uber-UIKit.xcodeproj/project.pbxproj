@@ -80,6 +80,9 @@
 		5E97CB282C2C43D500304A30 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB272C2C43D500304A30 /* MapView.swift */; };
 		5E97CB292C2C43D500304A30 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB272C2C43D500304A30 /* MapView.swift */; };
 		5E97CB2A2C2C43D500304A30 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB272C2C43D500304A30 /* MapView.swift */; };
+		5E97CB2D2C2C45F600304A30 /* MapView+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB2C2C2C45F600304A30 /* MapView+InitialSetup.swift */; };
+		5E97CB2E2C2C45F600304A30 /* MapView+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB2C2C2C45F600304A30 /* MapView+InitialSetup.swift */; };
+		5E97CB2F2C2C45F600304A30 /* MapView+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB2C2C2C45F600304A30 /* MapView+InitialSetup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +142,7 @@
 		5E8F43462C26A5A000384900 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
 		5E97CB212C2C3D1A00304A30 /* LocationCardVC+InitialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationCardVC+InitialSetup.swift"; sourceTree = "<group>"; };
 		5E97CB272C2C43D500304A30 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5E97CB2C2C2C45F600304A30 /* MapView+InitialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView+InitialSetup.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -484,7 +488,7 @@
 			isa = PBXGroup;
 			children = (
 				5E97CB262C2C43BE00304A30 /* LocationCard */,
-				5E97CB272C2C43D500304A30 /* MapView.swift */,
+				5E97CB2B2C2C45E200304A30 /* MapView */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -505,6 +509,15 @@
 				5E97CB212C2C3D1A00304A30 /* LocationCardVC+InitialSetup.swift */,
 			);
 			path = LocationCard;
+			sourceTree = "<group>";
+		};
+		5E97CB2B2C2C45E200304A30 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				5E97CB272C2C43D500304A30 /* MapView.swift */,
+				5E97CB2C2C2C45F600304A30 /* MapView+InitialSetup.swift */,
+			);
+			path = MapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -662,6 +675,7 @@
 				5E8A6BFD2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */,
 				5E8F43352C25EE7F00384900 /* Constants.swift in Sources */,
 				5E5A82DD2BD40251006379D5 /* AccountVC.swift in Sources */,
+				5E97CB2D2C2C45F600304A30 /* MapView+InitialSetup.swift in Sources */,
 				5E97CB222C2C3D1A00304A30 /* LocationCardVC+InitialSetup.swift in Sources */,
 				5E8A96022C19D8E000E50E9D /* UIView+Extension.swift in Sources */,
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
@@ -686,6 +700,7 @@
 				5E5A82DA2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A83022BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E8F43442C26A44F00384900 /* LocationCardVC.swift in Sources */,
+				5E97CB2E2C2C45F600304A30 /* MapView+InitialSetup.swift in Sources */,
 				5E5A82D62BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E5A82B22BD3F6EE006379D5 /* Uber_UIKitTests.swift in Sources */,
 				5E8F43362C25EE7F00384900 /* Constants.swift in Sources */,
@@ -712,6 +727,7 @@
 				5E5A82DF2BD40251006379D5 /* AccountVC.swift in Sources */,
 				5E5A83032BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E97CB2A2C2C43D500304A30 /* MapView.swift in Sources */,
+				5E97CB2F2C2C45F600304A30 /* MapView+InitialSetup.swift in Sources */,
 				5E8A6BFF2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */,
 				5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A82D72BD401FF006379D5 /* ServicesVC.swift in Sources */,
