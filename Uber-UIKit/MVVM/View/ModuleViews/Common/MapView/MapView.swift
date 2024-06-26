@@ -16,7 +16,7 @@ class MapView: UIView, MKMapViewDelegate, CLLocationManagerDelegate {
     let mapView = MKMapView()
     let locationManager = CLLocationManager()
     
-    private var destinationCoordinate: CLLocationCoordinate2D?
+    var destinationCoordinate: CLLocationCoordinate2D?
     
     // MARK: - VIEWCONTROLLER LIFECYCLE METHODS
     
