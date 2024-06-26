@@ -392,8 +392,7 @@
 		5E5A83122BD52C7C006379D5 /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
-				5E5A83162BD52D32006379D5 /* EnterLocationPrompt */,
-				5E8F43332C25E75E00384900 /* SuggestedDestination */,
+				5E97CB252C2C416D00304A30 /* HomeCells */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -484,6 +483,15 @@
 				5E97CB212C2C3D1A00304A30 /* LocationCardVC+InitialSetup.swift */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		5E97CB252C2C416D00304A30 /* HomeCells */ = {
+			isa = PBXGroup;
+			children = (
+				5E5A83162BD52D32006379D5 /* EnterLocationPrompt */,
+				5E8F43332C25E75E00384900 /* SuggestedDestination */,
+			);
+			path = HomeCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
