@@ -89,6 +89,12 @@
 		5E97CB392C2C4B1100304A30 /* SuggestedVehiclesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E97CB352C2C4B1100304A30 /* SuggestedVehiclesCell.xib */; };
 		5E97CB3A2C2C4B1100304A30 /* SuggestedVehiclesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E97CB352C2C4B1100304A30 /* SuggestedVehiclesCell.xib */; };
 		5E97CB3B2C2C4B1100304A30 /* SuggestedVehiclesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E97CB352C2C4B1100304A30 /* SuggestedVehiclesCell.xib */; };
+		5E97CB3F2C2C529600304A30 /* CommuteSmarterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB3D2C2C529600304A30 /* CommuteSmarterCell.swift */; };
+		5E97CB402C2C529600304A30 /* CommuteSmarterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB3D2C2C529600304A30 /* CommuteSmarterCell.swift */; };
+		5E97CB412C2C529600304A30 /* CommuteSmarterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E97CB3D2C2C529600304A30 /* CommuteSmarterCell.swift */; };
+		5E97CB422C2C529600304A30 /* CommuteSmarterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E97CB3E2C2C529600304A30 /* CommuteSmarterCell.xib */; };
+		5E97CB432C2C529600304A30 /* CommuteSmarterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E97CB3E2C2C529600304A30 /* CommuteSmarterCell.xib */; };
+		5E97CB442C2C529600304A30 /* CommuteSmarterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E97CB3E2C2C529600304A30 /* CommuteSmarterCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +157,8 @@
 		5E97CB2C2C2C45F600304A30 /* MapView+InitialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapView+InitialSetup.swift"; sourceTree = "<group>"; };
 		5E97CB342C2C4B1100304A30 /* SuggestedVehiclesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedVehiclesCell.swift; sourceTree = "<group>"; };
 		5E97CB352C2C4B1100304A30 /* SuggestedVehiclesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestedVehiclesCell.xib; sourceTree = "<group>"; };
+		5E97CB3D2C2C529600304A30 /* CommuteSmarterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommuteSmarterCell.swift; sourceTree = "<group>"; };
+		5E97CB3E2C2C529600304A30 /* CommuteSmarterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommuteSmarterCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -395,6 +403,7 @@
 				5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */,
 				5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */,
 				5E97CB352C2C4B1100304A30 /* SuggestedVehiclesCell.xib */,
+				5E97CB3E2C2C529600304A30 /* CommuteSmarterCell.xib */,
 			);
 			path = TableViewXIBs;
 			sourceTree = "<group>";
@@ -508,6 +517,7 @@
 				5E5A83162BD52D32006379D5 /* EnterLocationPrompt */,
 				5E8F43332C25E75E00384900 /* SuggestedDestination */,
 				5E97CB3C2C2C4D7700304A30 /* SuggestedVehicles */,
+				5E97CB452C2C52D900304A30 /* CommuteSmarter */,
 			);
 			path = HomeCells;
 			sourceTree = "<group>";
@@ -536,6 +546,14 @@
 				5E97CB342C2C4B1100304A30 /* SuggestedVehiclesCell.swift */,
 			);
 			path = SuggestedVehicles;
+			sourceTree = "<group>";
+		};
+		5E97CB452C2C52D900304A30 /* CommuteSmarter */ = {
+			isa = PBXGroup;
+			children = (
+				5E97CB3D2C2C529600304A30 /* CommuteSmarterCell.swift */,
+			);
+			path = CommuteSmarter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -646,6 +664,7 @@
 				5E5A82FD2BD52363006379D5 /* ColorAssets.xcassets in Resources */,
 				5E5A830F2BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 				5E8F43302C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
+				5E97CB422C2C529600304A30 /* CommuteSmarterCell.xib in Resources */,
 				5E5A82F62BD5218C006379D5 /* Uber Move Bold.otf in Resources */,
 				5E5A82F72BD5218C006379D5 /* Uber Move Bold.ttf in Resources */,
 				5E5A82F82BD5218C006379D5 /* Uber Move Medium.otf in Resources */,
@@ -667,6 +686,7 @@
 				5E8F433A2C26A2F000384900 /* Common.storyboard in Resources */,
 				5E8F43312C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
 				5E5A83102BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
+				5E97CB432C2C529600304A30 /* CommuteSmarterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +698,7 @@
 				5E8F433B2C26A2F000384900 /* Common.storyboard in Resources */,
 				5E8F43322C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
 				5E5A83112BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
+				5E97CB442C2C529600304A30 /* CommuteSmarterCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -703,6 +724,7 @@
 				5E5A83012BD528FE006379D5 /* HomeVC+InitialSetup.swift in Sources */,
 				5E5A829F2BD3F6E8006379D5 /* HomeVC.swift in Sources */,
 				5E5A830C2BD52B6B006379D5 /* EnterLocationPromptCell.swift in Sources */,
+				5E97CB3F2C2C529600304A30 /* CommuteSmarterCell.swift in Sources */,
 				5E8F43432C26A44F00384900 /* LocationCardVC.swift in Sources */,
 				5E5A829B2BD3F6E8006379D5 /* AppDelegate.swift in Sources */,
 				5E97CB282C2C43D500304A30 /* MapView.swift in Sources */,
@@ -735,6 +757,7 @@
 				5E8F432E2C25E6ED00384900 /* SuggestedDestinationCell.swift in Sources */,
 				5E8F43482C26A5A100384900 /* UIApplication+Extension.swift in Sources */,
 				5E5A831B2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
+				5E97CB402C2C529600304A30 /* CommuteSmarterCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -755,6 +778,7 @@
 				5E5A82DB2BD4023A006379D5 /* ActivityVC.swift in Sources */,
 				5E5A82D72BD401FF006379D5 /* ServicesVC.swift in Sources */,
 				5E97CB382C2C4B1100304A30 /* SuggestedVehiclesCell.swift in Sources */,
+				5E97CB412C2C529600304A30 /* CommuteSmarterCell.swift in Sources */,
 				5E5A831C2BD52E20006379D5 /* TableViewCellIdentifierEnums.swift in Sources */,
 				5E5A83052BD52908006379D5 /* HomeVC+TableView.swift in Sources */,
 				5E8F43372C25EE7F00384900 /* Constants.swift in Sources */,
