@@ -15,7 +15,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CommuteSmarterCell" rowHeight="162" id="KGk-i7-Jjw" customClass="CommuteSmarterCell" customModule="Uber_UIKit" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="RecommendationsCell" rowHeight="162" id="KGk-i7-Jjw" customClass="RecommendationsCell" customModule="Uber_UIKit" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="555" height="162"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -23,13 +23,13 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commute Smarter" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmS-dc-rjx">
-                        <rect key="frame" x="16" y="16" width="523" height="21.666666666666671"/>
+                        <rect key="frame" x="16" y="16" width="523" height="21"/>
                         <fontDescription key="fontDescription" name="UberMove-Bold" family="Uber Move" pointSize="18"/>
                         <color key="textColor" name="LabelColor"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="nS2-GO-ZgR">
-                        <rect key="frame" x="16" y="53.666666666666664" width="523" height="92.333333333333343"/>
+                        <rect key="frame" x="16" y="53" width="523" height="93"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OeD-ih-4Tu">
                             <size key="itemSize" width="128" height="128"/>

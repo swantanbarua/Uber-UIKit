@@ -32,7 +32,7 @@ extension HomeVC {
                 TableViewCellIdentifierEnums.EnterLocationPromptCell.rawValue,
                 TableViewCellIdentifierEnums.SuggestedDestinationCell.rawValue,
                 TableViewCellIdentifierEnums.SuggestedVehiclesCell.rawValue,
-                TableViewCellIdentifierEnums.CommuteSmarterCell.rawValue
+                TableViewCellIdentifierEnums.RecommendationsCell.rawValue
             ]
         )
     }
@@ -87,9 +87,9 @@ extension HomeVC: UITableViewDelegate, UITableViewDataSource {
             return cell
         } else {
             guard let cell = tableView.dequeueReusableCell(
-                withIdentifier: TableViewCellIdentifierEnums.CommuteSmarterCell.rawValue,
+                withIdentifier: TableViewCellIdentifierEnums.RecommendationsCell.rawValue,
                 for: indexPath
-            ) as? CommuteSmarterCell else { return UITableViewCell() }
+            ) as? RecommendationsCell else { return UITableViewCell() }
             
             return cell
         }

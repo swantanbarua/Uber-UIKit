@@ -1,5 +1,5 @@
 //
-//  CommuteSmarterCell.swift
+//  RecommendationsCell.swift
 //  Uber-UIKit
 //
 //  Created by Swantan Barua on 26/06/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CommuteSmarterCell: UITableViewCell {
+class RecommendationsCell: UITableViewCell {
 
     // MARK: - IBOUTLETS
     
