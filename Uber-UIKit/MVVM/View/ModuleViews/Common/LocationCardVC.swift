@@ -15,6 +15,8 @@ class LocationCardVC: UIViewController {
     // MARK: - VIEWCONTROLLER LIFECYCLE METHODS
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        initialSetup()
     }
     
     // MARK: - IBACTIONS
