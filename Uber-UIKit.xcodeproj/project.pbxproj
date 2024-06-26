@@ -394,6 +394,7 @@
 			children = (
 				5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */,
 				5E8F432C2C25E6ED00384900 /* SuggestedDestinationCell.xib */,
+				5E97CB352C2C4B1100304A30 /* SuggestedVehiclesCell.xib */,
 			);
 			path = TableViewXIBs;
 			sourceTree = "<group>";
@@ -506,8 +507,7 @@
 			children = (
 				5E5A83162BD52D32006379D5 /* EnterLocationPrompt */,
 				5E8F43332C25E75E00384900 /* SuggestedDestination */,
-				5E97CB342C2C4B1100304A30 /* SuggestedVehiclesCell.swift */,
-				5E97CB352C2C4B1100304A30 /* SuggestedVehiclesCell.xib */,
+				5E97CB3C2C2C4D7700304A30 /* SuggestedVehicles */,
 			);
 			path = HomeCells;
 			sourceTree = "<group>";
@@ -528,6 +528,14 @@
 				5E97CB2C2C2C45F600304A30 /* MapView+InitialSetup.swift */,
 			);
 			path = MapView;
+			sourceTree = "<group>";
+		};
+		5E97CB3C2C2C4D7700304A30 /* SuggestedVehicles */ = {
+			isa = PBXGroup;
+			children = (
+				5E97CB342C2C4B1100304A30 /* SuggestedVehiclesCell.swift */,
+			);
+			path = SuggestedVehicles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
