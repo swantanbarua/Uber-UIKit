@@ -22,7 +22,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="555" height="162"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CommuteSmarterCell" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmS-dc-rjx">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Commute Smarter" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DmS-dc-rjx">
                         <rect key="frame" x="16" y="16" width="523" height="21.666666666666671"/>
                         <fontDescription key="fontDescription" name="UberMove-Bold" family="Uber Move" pointSize="18"/>
                         <color key="textColor" name="LabelColor"/>
