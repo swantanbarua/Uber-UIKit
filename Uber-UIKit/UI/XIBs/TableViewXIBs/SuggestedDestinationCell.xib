@@ -38,6 +38,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
+                <color key="backgroundColor" name="BackgroundColor"/>
                 <constraints>
                     <constraint firstItem="Sqf-39-pod" firstAttribute="leading" secondItem="pme-Ff-Jz4" secondAttribute="trailing" constant="12" id="GGV-Ic-dA6"/>
                     <constraint firstItem="pme-Ff-Jz4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Pec-Ne-oGg"/>
@@ -60,6 +61,9 @@
     </objects>
     <resources>
         <image name="clock.fill" catalog="system" width="128" height="123"/>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="LabelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

@@ -63,7 +63,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VY7-t5-rob">
-                                <rect key="frame" x="248.66666666666669" y="0.0" width="103.99999999999994" height="50"/>
+                                <rect key="frame" x="248.66666666666669" y="0.0" width="104" height="50"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3U7-Jn-JlE">
@@ -73,6 +73,7 @@
                         </subviews>
                     </stackView>
                 </subviews>
+                <color key="backgroundColor" name="BackgroundColor"/>
                 <constraints>
                     <constraint firstItem="euc-Fk-o7s" firstAttribute="bottom" secondItem="mvP-sX-5n4" secondAttribute="bottom" id="0FU-p4-9Kh"/>
                     <constraint firstAttribute="trailing" secondItem="AWd-nx-aGE" secondAttribute="trailing" constant="16" id="FHl-L3-sJt"/>
@@ -93,6 +94,9 @@
         </tableViewCell>
     </objects>
     <resources>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="LabelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
