@@ -10,6 +10,11 @@ import UIKit
 extension MapView {
     
     internal func setupView() {
+        mapView.frame = self.bounds
+        mapView.delegate = self
         
+        locationManager.delegate = self
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
     }
 }

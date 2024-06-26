@@ -13,8 +13,8 @@ class MapView: UIView, MKMapViewDelegate, CLLocationManagerDelegate {
     
     // MARK: - PROPERTIES
     
-    private let mapView = MKMapView()
-    private let locationManager = CLLocationManager()
+    let mapView = MKMapView()
+    let locationManager = CLLocationManager()
     
     private var destinationCoordinate: CLLocationCoordinate2D?
     
