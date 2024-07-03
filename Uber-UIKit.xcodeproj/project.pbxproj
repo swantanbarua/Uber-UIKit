@@ -50,6 +50,9 @@
 		5E7402302C35B36A00B07AF6 /* SuggestedVehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74022F2C35B36A00B07AF6 /* SuggestedVehiclesView.swift */; };
 		5E7402312C35B36A00B07AF6 /* SuggestedVehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74022F2C35B36A00B07AF6 /* SuggestedVehiclesView.swift */; };
 		5E7402322C35B36A00B07AF6 /* SuggestedVehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E74022F2C35B36A00B07AF6 /* SuggestedVehiclesView.swift */; };
+		5E7402342C35B3DF00B07AF6 /* SuggestedVehiclesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E7402332C35B3DE00B07AF6 /* SuggestedVehiclesView.xib */; };
+		5E7402352C35B3DF00B07AF6 /* SuggestedVehiclesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E7402332C35B3DE00B07AF6 /* SuggestedVehiclesView.xib */; };
+		5E7402362C35B3DF00B07AF6 /* SuggestedVehiclesView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5E7402332C35B3DE00B07AF6 /* SuggestedVehiclesView.xib */; };
 		5E8A6BFD2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */; };
 		5E8A6BFE2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */; };
 		5E8A6BFF2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */; };
@@ -147,6 +150,7 @@
 		5E5A830B2BD52B6B006379D5 /* EnterLocationPromptCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterLocationPromptCell.xib; sourceTree = "<group>"; };
 		5E5A83192BD52E20006379D5 /* TableViewCellIdentifierEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellIdentifierEnums.swift; sourceTree = "<group>"; };
 		5E74022F2C35B36A00B07AF6 /* SuggestedVehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestedVehiclesView.swift; sourceTree = "<group>"; };
+		5E7402332C35B3DE00B07AF6 /* SuggestedVehiclesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SuggestedVehiclesView.xib; sourceTree = "<group>"; };
 		5E8A6BFC2BD53555006B3CDA /* EnterLocationPromptCell+InitialSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnterLocationPromptCell+InitialSetup.swift"; sourceTree = "<group>"; };
 		5E8A96012C19D8E000E50E9D /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		5E8A96052C19D8F600E50E9D /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
@@ -495,6 +499,7 @@
 		5E74022D2C35B20700B07AF6 /* CustomXIBs */ = {
 			isa = PBXGroup;
 			children = (
+				5E7402332C35B3DE00B07AF6 /* SuggestedVehiclesView.xib */,
 			);
 			path = CustomXIBs;
 			sourceTree = "<group>";
@@ -684,6 +689,7 @@
 				5E8F43392C26A2F000384900 /* Common.storyboard in Resources */,
 				5E5A82FD2BD52363006379D5 /* ColorAssets.xcassets in Resources */,
 				5E5A830F2BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
+				5E7402342C35B3DF00B07AF6 /* SuggestedVehiclesView.xib in Resources */,
 				5E8F43302C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
 				5E97CB422C2C529600304A30 /* RecommendationsCell.xib in Resources */,
 				5E5A82F62BD5218C006379D5 /* Uber Move Bold.otf in Resources */,
@@ -706,6 +712,7 @@
 				5E97CB3A2C2C4B1100304A30 /* SuggestedVehiclesCell.xib in Resources */,
 				5E8F433A2C26A2F000384900 /* Common.storyboard in Resources */,
 				5E8F43312C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
+				5E7402352C35B3DF00B07AF6 /* SuggestedVehiclesView.xib in Resources */,
 				5E5A83102BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 				5E97CB432C2C529600304A30 /* RecommendationsCell.xib in Resources */,
 			);
@@ -718,6 +725,7 @@
 				5E97CB3B2C2C4B1100304A30 /* SuggestedVehiclesCell.xib in Resources */,
 				5E8F433B2C26A2F000384900 /* Common.storyboard in Resources */,
 				5E8F43322C25E6ED00384900 /* SuggestedDestinationCell.xib in Resources */,
+				5E7402362C35B3DF00B07AF6 /* SuggestedVehiclesView.xib in Resources */,
 				5E5A83112BD52B6B006379D5 /* EnterLocationPromptCell.xib in Resources */,
 				5E97CB442C2C529600304A30 /* RecommendationsCell.xib in Resources */,
 			);
