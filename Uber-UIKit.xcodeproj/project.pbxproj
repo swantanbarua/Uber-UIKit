@@ -241,6 +241,7 @@
 			children = (
 				5E5A82CC2BD3F86C006379D5 /* Storyboards */,
 				5E5A83072BD529F0006379D5 /* XIBs */,
+				5E74022D2C35B20700B07AF6 /* NIBs */,
 				5E5A82CB2BD3F857006379D5 /* Launchscreen */,
 			);
 			path = UI;
@@ -485,6 +486,13 @@
 				5E8F43462C26A5A000384900 /* UIApplication+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E74022D2C35B20700B07AF6 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NIBs;
 			sourceTree = "<group>";
 		};
 		5E8F43332C25E75E00384900 /* SuggestedDestination */ = {
