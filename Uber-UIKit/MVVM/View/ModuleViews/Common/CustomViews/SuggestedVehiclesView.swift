@@ -20,7 +20,9 @@ final class SuggestedVehiclesView: UIView {
     }
     
     private func configureView() {
-        guard let view = self.loadViewFromNib(nibName: "SuggestedVehiclesView") else { return }
+        guard let view = self.loadViewFromNib(
+            nibName: CustomNibEnums.SuggestedVehiclesView.rawValue
+        ) else { return }
         view.frame = self.bounds
         self.addSubview(view)
     }
